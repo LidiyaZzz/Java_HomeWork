@@ -24,6 +24,7 @@ public class task2 {
         }
         return num;
     }
+    
 
     public static void printPrimeNumbers(int num) {
         

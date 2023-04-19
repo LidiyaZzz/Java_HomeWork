@@ -40,16 +40,15 @@ public class task4 {
         System.out.println(message);
         String num = scanner.next();
 
-        if (num.length() > 2) {
-            num = getArray("Вы ввели слишком длинное число, попробуйте еще раз");
+        if (num.length() > 2 || num.length() < 2) {
+            num = getArray("Вы ввели некорректное значение, введите двузначное число, цифры можно заменить знаком вопроса");
         } 
-        else {
-            boolean hasDigits = false;
-            for(int i = 0; i < num.length() && !hasDigits; i++) {
+        else if (num.length() == 2) {
+            for(int i = 0; i < num.length(); i++) {
                 if(Character.isDigit(num.charAt(i)) || num.charAt(i) == '?') {
                     return num;
                 } else {
-                    num = getArray("Вы ввели некорректное значение, попробуйте еще раз");
+                    num = getArray("Вы ввели некорректное значение, введите двузначное число, цифры можно заменить знаком вопроса");
                 }
                 
             }
@@ -85,7 +84,7 @@ public class task4 {
         }
 
         if (ten1 + ten2 > sum / 10) {
-            System.out.println("Решения нет");
+            result = false;
 
         } else {
 

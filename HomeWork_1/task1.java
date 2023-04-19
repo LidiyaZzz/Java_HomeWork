@@ -25,3 +25,4 @@ public class task1 {
         System.out.printf("Треугольное число: %d; N!: %d \n", resultSum, resultMult);
     }
 }
+

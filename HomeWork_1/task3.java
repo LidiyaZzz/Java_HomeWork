@@ -19,6 +19,7 @@ public class task3 {
             System.out.printf("Результат операции: %f", result);
         }
     }
+    
 
     public static int getInt(){
         System.out.println("Введите целое число:");
