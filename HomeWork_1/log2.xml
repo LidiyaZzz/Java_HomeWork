@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-25T08:48:28.264119500Z</date>
+  <millis>1682412508264</millis>
+  <nanos>119500</nanos>
+  <sequence>0</sequence>
+  <logger>task3</logger>
+  <level>INFO</level>
+  <class>task3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Попытка поделить на ноль: 12/0</message>
+</record>
+</log>
