@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-24T18:36:37.738991900Z</date>
+  <millis>1682361397738</millis>
+  <nanos>991900</nanos>
+  <sequence>0</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Произошла смена элементов массива: [3, 11, 14, 16, 7]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.786962200Z</date>
+  <millis>1682361397786</millis>
+  <nanos>962200</nanos>
+  <sequence>1</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 11, 14, 16, 7]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.787962300Z</date>
+  <millis>1682361397787</millis>
+  <nanos>962300</nanos>
+  <sequence>2</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 11, 14, 16, 7]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.788961Z</date>
+  <millis>1682361397788</millis>
+  <nanos>961000</nanos>
+  <sequence>3</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Произошла смена элементов массива: [3, 11, 14, 7, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.789960600Z</date>
+  <millis>1682361397789</millis>
+  <nanos>960600</nanos>
+  <sequence>4</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 11, 14, 7, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.789960600Z</date>
+  <millis>1682361397789</millis>
+  <nanos>960600</nanos>
+  <sequence>5</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 11, 14, 7, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.790959900Z</date>
+  <millis>1682361397790</millis>
+  <nanos>959900</nanos>
+  <sequence>6</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Произошла смена элементов массива: [3, 11, 7, 14, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.791959Z</date>
+  <millis>1682361397791</millis>
+  <nanos>959000</nanos>
+  <sequence>7</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 11, 7, 14, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.791959Z</date>
+  <millis>1682361397791</millis>
+  <nanos>959000</nanos>
+  <sequence>8</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 11, 7, 14, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.792959200Z</date>
+  <millis>1682361397792</millis>
+  <nanos>959200</nanos>
+  <sequence>9</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Произошла смена элементов массива: [3, 7, 11, 14, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.793957900Z</date>
+  <millis>1682361397793</millis>
+  <nanos>957900</nanos>
+  <sequence>10</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 7, 11, 14, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.794957100Z</date>
+  <millis>1682361397794</millis>
+  <nanos>957100</nanos>
+  <sequence>11</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 7, 11, 14, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.795956700Z</date>
+  <millis>1682361397795</millis>
+  <nanos>956700</nanos>
+  <sequence>12</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 7, 11, 14, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.796956100Z</date>
+  <millis>1682361397796</millis>
+  <nanos>956100</nanos>
+  <sequence>13</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 7, 11, 14, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.796956100Z</date>
+  <millis>1682361397796</millis>
+  <nanos>956100</nanos>
+  <sequence>14</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 7, 11, 14, 16]</message>
+</record>
+<record>
+  <date>2023-04-24T18:36:37.797955300Z</date>
+  <millis>1682361397797</millis>
+  <nanos>955300</nanos>
+  <sequence>15</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Cмены элементов массива не произошло: [3, 7, 11, 14, 16]</message>
+</record>
+</log>
