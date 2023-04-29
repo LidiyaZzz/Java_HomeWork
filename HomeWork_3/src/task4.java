@@ -30,11 +30,11 @@ public class task4 {
         List<Integer> listABNotRepeat = new ArrayList<Integer>();
         symmetricDifference (listANotB, listBNotA, listABNotRepeat);
 
-        printArray (list1, "Множество A:");
-        printArray (list2, "Множество B:");
-        printArray (listANotB, "Все числа из коллекции A, которые не содержатся в коллекции B:");
-        printArray (listBNotA, "Все числа из коллекции B, которые не содержатся в коллекции A:");
-        printArray (listABNotRepeat, "Симметрическая разность множеств A и B:");
+        System.out.println("Множество A: " + list1);
+        System.out.println("Множество B: " + list2);
+        System.out.println("Все числа из коллекции A, которые не содержатся в коллекции B: " + listANotB);
+        System.out.println("Все числа из коллекции B, которые не содержатся в коллекции A: " + listBNotA);
+        System.out.println("Симметрическая разность множеств A и B: " + listABNotRepeat);
 
     }
 
@@ -43,15 +43,6 @@ public class task4 {
 
         for (int i = 0; i < 10; i++) {
             list.add(i, random.nextInt(15));
-        }
-    }
-
-    private static void printArray (List<Integer> list, String message) {
-        System.out.println(message);
-        for (int i = 0; i < list.size(); i++) {
-            if (i == 0) System.out.print("[ " + list.get(i) + ", ");
-            else if (i == list.size() - 1) System.out.print(list.get(i) + "]\n");
-            else System.out.print(list.get(i) + ", ");
         }
     }
 

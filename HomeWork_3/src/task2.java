@@ -13,17 +13,9 @@ public class task2 {
             list.add(i, random.nextInt(99));
         }
 
-        printArray (list);
+        System.out.println(list);
         removeNums (list);
-        printArray (list);
-    }
-
-    private static void printArray (List<Integer> list) {
-        for (int i = 0; i < list.size(); i++) {
-            if (i == 0) System.out.print("[ " + list.get(i) + ", ");
-            else if (i == list.size() - 1) System.out.print(list.get(i) + "]\n");
-            else System.out.print(list.get(i) + ", ");
-        }
+        System.out.println(list);
     }
 
     private static void removeNums (List<Integer> list) {
